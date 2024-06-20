@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 블럭 1번 */
+.box1{
+    width: 100%;
+    height: 1260px;
+    background-image: url(img/photo1.png);
+    background-position: center;
+    background-size: cover;
+}
+.cont1{
+    width: 2200px;
+    height: 1260px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 49px;
+}
+.title{
+    position: absolute;
+    top: 250px;
+    left: 265px;
+}
+.can1{
+    position: absolute;
+    bottom: 0;
+    right: 34px;
+    width: 471px;
+    height: 886px;
+}
+/* 블럭 2번 */
+.box2{
+    width: 100%;
+    height: 304px;
+    background-color: #3A6242;
+}
+.cont2{
+    width: 1490px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.slogan{
+    width: 1103px;
+    height: 136px;
+}
+/* 블럭 3번 */
+.box3{
+    width: 100%;
+    height: 1268px;
+    background-image: url(img/photo2.png);
+    background-size: cover;
+}
+.cont3{
+    width: 100%;
+    height: 1268px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.can2{
+    width: 541px;
+    height: 1092px;
+    position: absolute;
+    top: 490px;
+}
+/* 블럭 4번 */
+.box4{
+    width: 100%;
+    height: 600px;
+    text-align: left;
+}
+/* 블럭 5번 */
+.box5{
+    width: 100%;
+    height: 300px;
+}
+.cont5{
+    width: 1177px;
+    height: 440px;
+    margin: 0 auto;
+}
+.txt{
+    width: 1377px;
+    height: 300px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -0.7px;
+    text-align: center;
+    margin-top: 75px;
+    color: #000000;
+}
+/* 블럭 4-2번 */
+.box4-2{
+    width: 100%;
+    height: 600px;
+    text-align: right;
+}
+/* 블럭 6번 */
+.box6{
+    width: 100%;
+    height: 853px;
+    background-image: url(img/매실사진2.png);
+    background-position: center;
+    background-size: cover;
+}
+.cont6{
+    width: 100%;
+    height: 853px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* 블럭 7번 */
+.box7{
+    width: 100%;
+    height: 974px;
+    background-image: url(img/매실사진1.png);
+    background-position: center;
+    background-size: cover;
+}
+.cont7{
+    width: 100%;
+    height: 974px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* 블럭 8번 */
+.box8{
+    width: 100%;
+    height: 1221px;
+}
+.cont8{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+}
+.cont8 > img{
+    padding-top: 100px;
+}
+/* 블럭 9번 */
+.box9{
+    width: 100%;
+    height: 1200px;
+    background-image: url(img/매실사진3.png);
+    background-size: cover;
+}
+.cont9{
+    width: 802px;
+    height: 590px;
+    margin: 0 auto;
+}
+.cont9 > img{
+    padding-top: 200px;
+}
